@@ -1,0 +1,42 @@
+Reference
+Project Title: Innovative Clap Switch: Integrating IR Detection with Arduino
+Authors: Aniket Kamble
+Institution: DKTE Society’s Textile and Engineering Institute, Ichalkaranji
+University: Shivaji University, Kolhapur
+Year: 2024-2025
+Guide: Dr. S. S. More
+Degree: Bachelor of Technology in Computer Science and Engineering (AIML)
+Project Report Summary
+Title: Innovative Clap Switch: Integrating IR Detection with Arduino
+Abstract
+The "Innovative Clap Switch: Integrating IR Detection with Arduino" project explores a control system that combines sound (clap) detection and infrared (IR) sensing to operate devices hands-free. This setup is designed to make device control more reliable and efficient, especially for home automation and security applications.
+
+1. Introduction
+In today’s world, there’s a growing need for hands-free device control, both for convenience and accessibility. Traditional clap switches rely on sound alone, which can lead to false triggers. This project integrates IR sensing to enhance the system’s responsiveness and reliability, creating an innovative solution suited for smart home systems.
+
+2. Objectives
+Hands-Free Operation: Enable device control through clapping.
+Enhanced Detection: Combine sound detection with IR sensing to reduce false triggers.
+Energy Efficiency: Only activate devices when the user is present, helping to save energy.
+3. System Design
+The project employs an Arduino microcontroller to process inputs from a clap sensor and an IR sensor. The clap sensor detects two claps within a short time window to toggle the state of a connected device, while the IR sensor ensures the device only activates when a person is nearby.
+
+4. Implementation
+The implementation includes setting up the Arduino with a KY-037 microphone module for clap detection and an HC-SR501 IR sensor for presence detection. The project uses LEDs as visual indicators and a relay module to control external devices.
+
+5. Requirement Analysis
+Functional Requirements: Detect claps, monitor IR sensor for presence, and control relay.
+Non-Functional Requirements: Ensure low response time, reliability, and user-friendliness.
+Hardware: Arduino board, clap sensor, IR sensor, relay module, LED, and necessary wiring.
+Software: Arduino IDE and required libraries.
+6. Testing and Calibration
+Testing involves verifying that the clap sensor accurately detects claps within a specific timeframe, while the IR sensor correctly identifies motion or presence. Calibration ensures the system performs consistently in various environments.
+
+7. Applications
+This system is versatile, with applications in:
+
+Home Automation: Clap to control lights or fans.
+Security Systems: Monitor presence with the IR sensor.
+Public Spaces: Energy-efficient lighting control in places like hallways.
+8. Conclusion
+By integrating sound and IR detection, this clap switch system provides a responsive, hands-free solution for smart homes and energy-saving applications. Future improvements could involve integrating Bluetooth or Wi-Fi for remote control and machine learning for adaptive sensitivity adjustments.
